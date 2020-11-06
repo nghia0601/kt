@@ -1,0 +1,23 @@
+[
+    {
+        "maSanPham":"SP01",
+        "ID":"1",
+        "Gia":10000,
+        "TenSP":"Sach Hay",
+        "MoTa":"Sach moi "
+    },
+    {
+        "maSanPham":"SP02",
+        "ID":"2",
+        "Gia":15000,
+        "TenSP":"Sach Hay",
+        "MoTa":"Sach moi "
+    },
+    {
+        "maSanPham":"SP03",
+        "ID":"3",
+        "Gia":17000,
+        "TenSP":"Sach Hay",
+        "MoTa":"Sach moi "
+    }
+]

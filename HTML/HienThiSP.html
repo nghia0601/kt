@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Danh Sach San Pham </title>
+    <meta charset="utf-8">
+    </head>
+    <script>
+        function AddCart(maSanPham, ID,TenSP, Gia){
+          var sl=document.getElementById(maSanPham);
+          console.log(sl.value);
+          window.location.href='/Chon?maSanPham='+maSanPham+'&ID='+ID+'&TenSP='+TenSP+'&Gia='+Gia+'&SoLuong='+sl.value;
+        }
+    </script>
+    <body>
+      <form action="/TimKiem" method="GET">
+          TenSP: <input type="text" name="TenSP" />
+          <input type="submit" value="Tim" />
+      </form>
+     <a href="/new">Thêm mới</a>
+    </body>
+</html>
